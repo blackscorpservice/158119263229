@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+.modal.left.fade .modal-dialog{
+left: -320px;
+-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+   -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+	 -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+		transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+.modal.left.fade.in .modal-dialog{left: 0;}      
+
+.modal.left .modal-dialog {
+	position: fixed;
+	margin: auto;
+	width: 320px;
+	height: 100%;
+	-webkit-transform: translate3d(0%, 0, 0);
+	-ms-transform: translate3d(0%, 0, 0);
+	-o-transform: translate3d(0%, 0, 0);
+	transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content {
+	height: 100%;
+	overflow-y: auto;
+}
+.modal.left.fade .modal-dialog {
+	left: -320px;
+	-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+	-moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+	-o-transition: opacity 0.3s linear, left 0.3s ease-out;
+	transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+.modal.left.fade.show .modal-dialog {
+	left: 0;
+}
+.modal.left .modal-body {
+	padding: 0;
+    text-align: center;
+}
+.modal-content.modal-menu {
+    border-radius: 0;
+    border: 0;
+    background: rgba(0,0,0,0.8);
+}
+
+.modal.userlogin {
+    top: 15%;
+	transition: all 0.5s;
+}
+.modal-header.userlogin {
+    display: block;
+    padding: 15px;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+	text-align: center;
+}
+.modal-header.userlogin img {
+	max-width: 160px;
+}
+
+.responsive-menu ul {
+	padding: 0;
+	margin: 0;
+}
+.responsive-menu ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.responsive-menu ul li a {
+    font-size: 19px;
+    font-weight: 800;
+    padding: 10px 5px;
+    display: block;
+	color: #fff;
+}
+.responsive-menu ul li a:focus {
+	color: #fff;
+} 
+.responsive-menu ul li a:hover {
+	color: #fdbc84;
+}
+.lang-res {
+	color: #fff;
+}
+.lang-res a {
+    color: #fff;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.btn.btn-close-menu {
+    background: #fff;
+	font-weight: 800;
+}
+.modal-header.login {
+    background: #f3f3f3;
+    width: 100%;
+	padding: 13px;
+}
+.modal-title.userlogin {
+    text-align: center;
+    margin: auto;
+	font-weight: 600;
+    font-size: 28px;
+}
+.modal-body.userlogin {
+    padding: 20px 15px;
+}
+.input-group.userlogin {
+	margin-bottom: 8px;
+}
+.sbmt {
+	text-align: center;
+}
+.btn-submit {
+    color: #fff;
+    background: #dd0023;
+    border: none;
+    padding: 8px 45px;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 30px;
+    margin: 0 3px;
+    transition: all 0.3s;
+    text-align: center;
+	text-transform:uppercase;
+}
+.btn-submit:hover {
+    filter: brightness(1.2);
+    transition: all 0.3s;
+}
+.forgot-link {
+    font-size: 13px;
+	color:#dd0023;
+}
+.forgot-link:hover, .forgot-link:focus  {
+	color:#000;
+	text-decoration: underline;
+}
+.close-x {
+    position: absolute;
+    background: #ffffff;
+    height: 34px;
+    width: 34px;
+    border: 0;
+    border-radius: 50%;
+    font-size: 19px;
+    right: -13px;
+    top: -14px;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.37);
+}
+.modal-dialog.modal-payout {
+    max-width: 600px;
+}
+button.close.close-x1 {
+    color: #fff;
+}
+.modal-content.payout {
+    background: rgba(0,0,0,0.85);
+}
+.payout-container {
+    padding: 7px 20px;
+}
+.payout-container h3 {
+    color: #fdbc84;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 26px;
+    text-align: center;
+}
+.prize-text {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+	text-align: center;
+}
+.pred {
+    color: #ff0000;
+}
+table.payoutTable {
+    text-align: center;
+}
+table.payoutTable th {
+    text-align: inherit;
+    background: #242424;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #151515;
+}
+table.payoutTable td {
+    border: 1px solid #151515;
+    font-size: 15px;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+table.payoutTable th, table.payoutTable td {
+    padding: 4px;
+}
+.xtr {
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+}
+.modal.login-info .modal-dialog {
+	top: 20%;
+}
+.ptitle {
+	font-weight: 800;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #dd0023;
+}
+.info-table tr, .info-table td {
+    border: 1px solid #bbb;
+    padding: 5px;
+    font-size: 13px;
+}
+.info-table tr th {
+    background: #1f1f1f;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}  
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+.modal.userlogin .modal-dialog {
+    margin: 16px;
+}	
+}

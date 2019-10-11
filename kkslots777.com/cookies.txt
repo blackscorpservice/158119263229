@@ -1,0 +1,10 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.kkslots777.com	TRUE	/	FALSE	1999999999	__cfduid	d2b713900abc9eb596917516d984e35de1570814833
+www.kkslots777.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	tsdo3tylg0dch3zzjkdfuem1
+mpsnare.iesnare.com	TRUE	/	FALSE	1999999999	io_token_7c6a6574-f011-4c9a-abdd-9894a102ccef	nqAI3l0Up70+3CFcq9VC5PRCl/nY0jgzaG3KATkh+Tc=
+.pragmaticplay.net	TRUE	/	FALSE	1999999999	__cfduid	d06c2ffc615eac7b2d79cdd1b7d33cbee1570815614
+.gsoft88.net	TRUE	/	FALSE	1999999999	__cfduid	dae53c02f19ce8fc15019aa11b99a841b1570816588
+.mrslotty.com	TRUE	/	FALSE	1999999999	__cfduid	dd291e8d440af97e6a4b6e595d2bad7331570818140
+.gsoft8.com	TRUE	/	FALSE	1999999999	__cfduid	d38557940c15d1f818b687d610c7edad91570819408
+
